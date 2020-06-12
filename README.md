@@ -1,7 +1,5 @@
 # CodeIgniter Rest Server
 
-[![Gitter chat](https://badges.gitter.im/chriskacerguis/codeigniter-restserver.png)](https://gitter.im/codeigniter-restserver/Lobby)
-
 A fully RESTful server implementation for CodeIgniter using one library, one
 config file and one controller.
 
@@ -11,12 +9,6 @@ config file and one controller.
 2. CodeIgniter 3.0+
 
 _Note: for 1.7.x support download v2.2 from Downloads tab_
-
-## Important Update on 4.0.0
-
-Please note that version 4.0.0 is in the works, and is considered a breaking change (per SemVer).  As CI 3.1.0 now has native support for Composer, this library will be moving to be composer based.
-
-Take a look at the "development" branch to see what's up.
 
 ## Installation & loading
 
@@ -223,17 +215,3 @@ Also you need to enable `hooks` in your config.php that looks like this
 $config['enable_hooks'] = TRUE;
 ```
 Also you can refer to **config/config.php.sample** 
-
-## Other Documentation / Tutorials
-
-* [NetTuts: Working with RESTful Services in CodeIgniter](http://net.tutsplus.com/tutorials/php/working-with-restful-services-in-codeigniter-2/)
-
-## Contributions
-
-This project was originally written by Phil Sturgeon, however his involvement has shifted
-as he is no longer using it.  As of 2013/11/20 further development and support will be done by Chris Kacerguis.
-
-Pull Requests are the best way to fix bugs or add features. I know loads of you use this, so please
-contribute if you have improvements to be made and I'll keep releasing versions over time.
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/chriskacerguis/codeigniter-restserver/master/LICENSE)
